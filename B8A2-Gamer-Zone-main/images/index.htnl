@@ -1,0 +1,275 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gamer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="home">
+  <!-- Header Section -->
+  <header class="header-section">
+    <nav>
+      <div class="container">
+        <a href="#home" class="logo">
+          <img src="./images/logo-icon.png" alt="Logo Icon">
+          <span><span class="text-primary">G</span>amer</span>
+        </a>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#developers">Developers</a></li>
+          <li><a href="#" class="nav-btn">
+            <span>Follow Us On</span>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-tiktok"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container flex">
+        <div class="hero-info">
+          <span>Play Like The</span>
+          <h1 class="text-gradient">G.O.A.T.</h1>
+          <ul>
+            <li>
+              <i class="fa-regular fa-circle-play"></i>
+              1-Click instant play
+            </li>
+            <li>
+              <i class="fa-solid fa-download"></i>
+              No Download
+            </li>
+            <li>
+              <i class="fa-solid fa-user-group"></i>
+              1000s of supported online games
+            </li>
+          </ul>
+          <div class="btn-group">
+            <a href="#" class="btn">Sign in</a>
+            <a href="#" class="btn btn-alt">Go Rogue</a>
+          </div>
+        </div>
+        <div class="hero-img">
+          <img src="./images/hero-img.png" alt="Section Image">
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <!-- About Section -->
+    <section class="about-section" id="about">
+      <div class="container flex">
+        <div class="about-img">
+          <img src="./images/about-img.png" alt="Section Image">
+        </div>
+        <div class="about-info">
+          <h2 class="text-gradient">We are gamer</h2>
+          <p>An international digital games and entertainment company. We develop, publish and distribute multiplayer mobile games. We reach over 400 million players each month and our audience keeps growing.</p>
+          <a href="#" class="btn">Know More</a>
+          <span>Our purpose...</span>
+          <span>"unleash the gamer in everyone"</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Online Games Section -->
+    <section class="online-games-section">
+      <div class="container">
+        <h2>Online Games <span class="text-gradient">Funny Videos</span></h2>
+        <span>A Collection of Hilarious Videos to Brighten Your Day</span>
+        <div class="card-container">
+          <figure>
+            <div class="img-wrapper">
+              <img src="./images/online-game-1.png" alt="Games Thumbnail">
+              <div class="card-hover">
+                <i class="fa-solid fa-circle-play"></i>
+                <span>Watch Now</span>
+              </div>
+            </div>
+            <figcaption>No Download. No Installs. Play games Instantly.</figcaption>
+          </figure>
+          <figure>
+            <div class="img-wrapper">
+              <img src="./images/online-game-2.png" alt="Games Thumbnail">
+              <div class="card-hover">
+                <i class="fa-solid fa-circle-play"></i>
+                <span>Watch Now</span>
+              </div>
+            </div>
+            <figcaption>Did you score? #unblockedgames #school</figcaption>
+          </figure>
+          <figure>
+            <div class="img-wrapper">
+              <img src="./images/online-game-3.png" alt="Games Thumbnail">
+              <div class="card-hover">
+                <i class="fa-solid fa-circle-play"></i>
+                <span>Watch Now</span>
+              </div>
+            </div>
+            <figcaption>Breaking game records like OG</figcaption>
+          </figure>
+          <figure>
+            <div class="img-wrapper">
+              <img src="./images/online-game-4.png" alt="Games Thumbnail">
+              <div class="card-hover">
+                <i class="fa-solid fa-circle-play"></i>
+                <span>Watch Now</span>
+              </div>
+            </div>
+            <figcaption>Busted gaming on school laptop, but you are still lit.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Play Instantly Section -->
+    <section class="play-instantly-section">
+      <div class="container flex">
+        <div class="play-instantly-info">
+          <h2><span class="text-gradient">Play Instantly,</span> No Downloads No Installs.</h2>
+          <p>Play games online for free without downloading. Just click the Play button and play instantly in your browser.</p>
+        </div>
+        <div class="play-instantly-img">
+          <img src="./images/play-instant-main.png" alt="Section Image">
+          <img src="./images/play-instant-sub.png" alt="Section Sub-image">
+        </div>
+      </div>
+    </section>
+
+    <!-- Play Games Section -->
+    <section class="play-games-section">
+      <div class="container flex">
+        <div class="play-games-img">
+          <img src="./images/play-games-main.png" alt="Section Image">
+          <img src="./images/play-games-sub.png" alt="Section Sub-image">
+        </div>
+        <div class="play-games-info">
+          <h2><span class="text-gradient">Play Games Online</span> Anywhere, Anytime!</h2>
+          <p>PC. dad’s phone, mom’s tablet, or your Chromebook, with Gamer you can play your favorite games online for free, any time, anywhere , on any device.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Careers Section -->
+    <section class="careers-section" id="developers">
+      <div class="container flex">
+        <div class="careers-info">
+          <h3>Careers</h3>
+          <p>Gamer is driven to create the best and most fun games for our millions of players all around the world, and we,re always on the lookout for more top talent to join our growing team. If you,d like to help us make great games and be a part of Gamers bright future, we,d love to hear from you.</p>
+          <div class="list-container">
+            <div>
+              <span>Multimedia Artist +</span>
+              <span>Lisbon, Portugal</span>
+            </div>
+            <div>
+              <span>Data Engineer +</span>
+              <span>Lisbon, Portugal</span>
+            </div>
+            <div>
+              <span>Android Engineer +</span>
+              <span>Zoetermeer, Netherlands</span>
+            </div>
+            <div>
+              <span>Server Developer +</span>
+              <span>Lisbon, Portugal</span>
+            </div>
+            <div>
+              <span>Group Financial Accountant +</span>
+              <span>London, United Kingdom</span>
+            </div>
+            <div>
+              <span>Senior User Acquisition Specialist +</span>
+              <span>Lisbon, Portugal</span>
+            </div>
+          </div>
+          <a href="#" class="btn">See All Positions</a>
+        </div>
+        <div class="careers-img">
+          <img src="./images/careers-img.png" alt="Section Image">
+        </div>
+      </div>
+    </section>
+
+    <!-- Category Section -->
+    <section class="category-section">
+      <div class="container">
+        <div class="card-container">
+          <div class="card">
+            <img src="./images/action-games.png" alt="Category Image">
+            <span>Action Games</span>
+          </div>
+          <div class="card">
+            <img src="./images/advanture-games.png" alt="Category Image">
+            <span>Adventure Games</span>
+          </div>
+          <div class="card">
+            <img src="./images/arcade-games.png" alt="Category Image">
+            <span>Arcade Games</span>
+          </div>
+          <div class="card">
+            <img src="./images/educational-games.png" alt="Category Image">
+            <span>Educational Games</span>
+          </div>
+          <div class="card">
+            <img src="./images/word-games.png" alt="Category Image">
+            <span>Word Games</span>
+          </div>
+          <div class="card">
+            <img src="./images/role-playing-games.png" alt="Category Image">
+            <span>Role Playing Games</span>
+          </div>
+          <div class="card">
+            <img src="./images/music-audio-games.png" alt="Category Image">
+            <span>Music & Audio Games</span>
+          </div>
+          <div class="card">
+            <img src="./images/play-games-sub.png" alt="Category Image">
+            <span>Puzzle Games</span>
+          </div>
+          <div class="card">
+            <img src="./images/strategy-games.png" alt="Category Image">
+            <span>Strategy Games</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="footer-section">
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="./images/logo-icon.png" alt="Logo Icon">
+        <span><span class="text-primary">G</span>amer</span>
+      </a>
+      <ul>
+        <li><a href="#">Our Story</a></li>
+        <li><a href="#">Games</a></li>
+        <li><a href="#">Web Games</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">My Account</a></li>
+      </ul>
+      <div class="social-links">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-apple"></i>
+      </div>
+      <ul>
+        <li><a href="#">Terms and Conditions</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Cookie Policy</a></li>
+        <li><a href="#">Privacy Settings</a></li>
+      </ul>
+      <p>Play Games @ Games @ 2000-2023 Gamer Bangladesh</p>
+    </div>
+  </footer>
+</body>
+</html>
